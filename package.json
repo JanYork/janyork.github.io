@@ -30,7 +30,7 @@
     "hexo-server": "^3.0.0",
     "hexo-tag-common": "^0.2.0",
     "hexo-theme-landscape": "^1.0.0",
-    "hexo-util": "^3.3.0"
+    "hexo-util": "^4.0.0"
   },
   "devDependencies": {
     "hexo-broken-links-checker": "^2.1.0"
