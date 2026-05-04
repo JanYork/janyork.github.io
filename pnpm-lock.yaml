@@ -9,8 +9,8 @@ dependencies:
     specifier: ^7.3.0
     version: 7.3.0
   hexo-blog-encrypt:
-    specifier: ^3.1.9
-    version: 3.1.9
+    specifier: ^4.0.0
+    version: 4.0.0(hexo@7.3.0)
   hexo-deployer-git:
     specifier: ^4.0.0
     version: 4.0.0
@@ -684,8 +684,13 @@ packages:
     dependencies:
       function-bind: 1.1.2
 
-  /hexo-blog-encrypt@3.1.9:
-    resolution: {integrity: sha512-dzuZiW5mD8t1FOhJXqc+IgV1Tc45YtatJb/w8k4PyT9McQxsROQXsBw+zbDembzuqMnbnkCeT2SapZ/r9AgAcw==}
+  /hexo-blog-encrypt@4.0.0(hexo@7.3.0):
+    resolution: {integrity: sha512-ApdnqKxk1p2zqB/GjwnqaiOQh4DhcrwL+BYDP02p4PpwUE7lFd0GCkBP5E0Kp0ZIjeOMZgriHqH1WIq7nOnITw==}
+    engines: {node: '>=18'}
+    peerDependencies:
+      hexo: '>=5'
+    dependencies:
+      hexo: 7.3.0
     dev: false
 
   /hexo-broken-links-checker@2.1.0(chalk@4.1.2)(hexo@7.3.0):
